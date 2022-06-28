@@ -1,6 +1,6 @@
 {
   "name": "@suger-tdy/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@7.3.0",
   "description": "collection of utilities for My project",
   "keywords": [
