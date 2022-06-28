@@ -1,3 +1,3 @@
-# typescript-starter
-> 
-> My starter project for typescript.
+# @suger-tdy/utils
+
+> This is a collection of utilities for My project.
