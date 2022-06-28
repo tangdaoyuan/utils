@@ -1,4 +1,4 @@
-import { cloneDeep } from '@/lang'
+import { cloneDeep } from './lang'
 
 /**
  *

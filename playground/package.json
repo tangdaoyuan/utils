@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@suger-tdy/utils": "workspace:^0.0.1",
     "vue": "3.2.37"
   },
   "devDependencies": {

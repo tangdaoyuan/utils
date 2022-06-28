@@ -16,12 +16,21 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
+    "./lang": {
+      "types": "./dist/lang.d.ts",
+      "import": "./dist/lang.mjs",
+      "require": "./dist/lang.cjs"
+    },
+    "./collection": {
+      "types": "./dist/collection.d.ts",
+      "import": "./dist/collection.mjs",
+      "require": "./dist/collection.cjs"
+    },
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    },
-    "./*": "./*"
+    }
   },
   "files": [
     "dist",
