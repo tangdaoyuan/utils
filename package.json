@@ -38,6 +38,7 @@
   ],
   "scripts": {
     "test": "vitest",
+    "postinstall": "pnpm run build",
     "test:run": "vitest run",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
