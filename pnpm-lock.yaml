@@ -5,16 +5,21 @@ importers:
   .:
     specifiers:
       '@suger-tdy/eslint-config': 1.1.5
+      '@types/lodash': ^4.14.182
       bumpp: 8.2.1
       esbuild: 0.14.47
       eslint: 8.18.0
+      lodash: ^4.17.21
       tsx: 3.6.0
       typescript: 4.7.4
       unbuild: 0.7.4
       vite: 2.9.12
       vitest: 0.16.0
+    dependencies:
+      lodash: 4.17.21
     devDependencies:
       '@suger-tdy/eslint-config': 1.1.5_b5e7v2qnwxfo6hmiq56u52mz3e
+      '@types/lodash': 4.14.182
       bumpp: 8.2.1
       esbuild: 0.14.47
       eslint: 8.18.0
@@ -526,6 +531,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/lodash/4.14.182:
+    resolution: {integrity: sha512-/THyiqyQAP9AfARo4pF+aCGcyiQ94tX/Is2I7HofNRqoYLgN1PBoOWu2/zTA5zMxzP5EFutMtWtGAFRKUe961Q==}
     dev: true
 
   /@types/mdast/3.0.10:
@@ -2576,7 +2585,6 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /loose-envify/1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
